@@ -91,45 +91,46 @@
 #destination-right-side img {
   width: 100%;
 }
-@media (max-width: 768px) #destination-container {
-  flex-direction: column;
-  padding-top: 100px;
-}
+@media only screen and (max-width: 600px) {
+  #destination-container {
+    flex-direction: column;
+    padding-top: 100px;
+  }
 
-#destination-left-side {
-  width: 100%;
-}
+  #destination-left-side {
+    width: 100%;
+  }
 
-#title {
-  font-size: 32px;
-  width: auto;
-  margin-top: 5px;
-}
+  #title {
+    font-size: 32px;
+    width: auto;
+  }
 
-#destination-map {
-  padding-top: 40px;
+  #subtitle {
+    font-size: 18px;
+  }
 
   #destination-item-container {
-    flex-direction: column;
     height: auto;
+    margin-bottom: 20px;
   }
 
   #destination-item-left-side {
-    width: 40px; /* Smaller icon size */
-    height: 40px; /* Smaller icon size */
-    font-size: 14px; /* Adjust font size */
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
   }
 
   #destination-item-title {
-    font-size: 14px; /* Smaller title size */
+    font-size: 14px;
   }
 
   #destination-item-location {
-    font-size: 10px; /* Smaller location size */
+    font-size: 10px;
   }
 
   #destination-right-side {
-    width: 100%; /* Full width on mobile */
-    margin-top: 20px; /* Add spacing above */
+    width: 100%;
+    margin-top: 20px;
   }
 }
