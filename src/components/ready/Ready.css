@@ -1,0 +1,22 @@
+#ready-container {
+  height: 392px;
+  background-color: #171717;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#ready-container h1 {
+  color: white;
+}
+#ready-container button {
+  width: 130px;
+  height: 44px;
+  border-radius: 8px;
+  background-color: #18ea51;
+  color: white;
+  font-size: 16px;
+  line-height: 19.5px;
+}

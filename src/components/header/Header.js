@@ -1,4 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.css";
+import { HeaderLogo } from "../../assets/HeaderLogo";
 
-<div id="logo-container"></div>;
+export const Header = () => {
+  return (
+    <div id="header-container">
+      <HeaderLogo />
+    </div>
+  );
+};

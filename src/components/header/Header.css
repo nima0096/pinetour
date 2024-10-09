@@ -1,5 +1,7 @@
-#logo-container {
-  width: 375px;
-  height: 269px;
-  color: #151515;
+#header-container {
+  height: 80px;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
