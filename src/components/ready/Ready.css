@@ -18,5 +18,30 @@
   background-color: #18ea51;
   color: white;
   font-size: 16px;
-  line-height: 19.5px;
+  line-height: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+#ready-container button:hover {
+  background-color: #16c944;
+  transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  #ready-container {
+    height: auto;
+    padding: 20px;
+  }
+
+  #ready-container h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #ready-container button {
+    width: 100%;
+    max-width: 130px;
+    font-size: 18px;
+  }
 }
