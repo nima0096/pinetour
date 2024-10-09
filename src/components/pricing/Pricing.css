@@ -6,6 +6,7 @@
   align-items: center;
   margin: 0 auto;
   margin-top: 40px;
+  justify-content: center;
 }
 
 #pricing-container-title {
@@ -21,6 +22,14 @@
   color: #ababab;
   margin: 0;
 }
+#pricing-container h2 {
+  font-size: 48px;
+  color: #303030;
+  margin: 0;
+  line-height: 58.5px;
+  font-weight: 700;
+}
+
 #pricing-container-small {
   display: flex;
   gap: 15px;
@@ -28,7 +37,6 @@
   margin-top: 20px;
 }
 
-#pricing-container-small-left,
 #pricing-container-small-right {
   width: 300px;
   height: 370px;
@@ -38,14 +46,30 @@
   align-items: center;
   border-radius: 24px;
   padding: 20px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+#pricing-container-small-right:hover {
+  border-color: #18ba51;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
 #pricing-container-small-left {
-  gap: 20px;
+  width: 300px;
+  height: 370px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  padding: 20px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
 }
-
-#pricing-container-small-right {
-  gap: 20px; /* Gap between items in the right container */
+#pricing-container-small-left:hover {
+  border-color: #18ba51;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 #pricing-container-small-left ul,
@@ -62,19 +86,34 @@
   margin-bottom: 15px;
 }
 
-#pricing-right-price,
-#pricing-left-price {
-  width: 105px;
-  height: 39px;
+#pricing-right-price {
   font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
   color: #303030;
+  text-align: end;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+#pricing-left-price {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  color: #303030;
+  text-align: end;
+  margin-left: 150px;
+  margin-top: 50px;
 }
 
-#pricing-container-small-left h1,
+#pricing-container-small-left h1 {
+  color: #303030;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
 #pricing-container-small-right h1 {
   color: #303030;
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {

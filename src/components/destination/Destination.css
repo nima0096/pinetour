@@ -5,6 +5,12 @@
   display: flex;
   padding-top: 200px;
 }
+#destination-subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  color: #ababab;
+}
 
 #destination-left-side {
   width: 45%;
@@ -12,12 +18,12 @@
   flex-direction: column;
 }
 
-#subtitle {
+/* #subtitle {
   font-size: 24px;
   font-weight: 700;
   line-height: 29.26px;
   color: #ababab;
-}
+} */
 
 #title {
   font-size: 48px;

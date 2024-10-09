@@ -11,9 +11,9 @@ export const Pricing = () => {
         <div id="pricing-container-small-left">
           <h1>Starter pack</h1>
           <ul>
-            <li>trip</li>
-            <li>hotel</li>
-            <li>breakfast</li>
+            <li>Trip</li>
+            <li>Hotel</li>
+            <li>Breakfast</li>
             <li>Lunch</li>
             <li>Dinner</li>
           </ul>
