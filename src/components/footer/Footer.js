@@ -1,12 +1,14 @@
 import React from "react";
 import "./Footer.css";
-import { FooterFaceLogo, FooterInstaLogo } from "../../assets";
+import { FooterFaceLogo, FooterInstaLogo, HeaderLogo } from "../../assets";
 
 export const Footer = () => {
   return (
     <div id="footer-container">
       <div id="footer-text-container">
-        <div id="footer-text-left-container">Pine Tour.</div>
+        <div id="footer-text-left-container">
+          <HeaderLogo />
+        </div>
         <div id="footer-text-right-container">
           <div>
             <FooterFaceLogo />

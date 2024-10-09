@@ -11,6 +11,9 @@
 #pricing-container-title {
   width: 299px;
   height: 118px;
+  color: #303030;
+  line-height: 58.5px;
+  font-weight: 700;
 }
 
 #pricing-container h1 {
